@@ -14,6 +14,7 @@ a{
     height:auto;
     display: flex;
     flex-direction: column;
+    overflow: hidden;
 }
 
 .first_secction_main{
@@ -89,6 +90,7 @@ a{
     flex-basis: 250px;
     max-height:45vh; /*change to 30vh*/ /*50vh*/
     flex-grow: 1;
+    margin-top: 100px;
     display: flex;
 }
 
@@ -115,7 +117,7 @@ a{
 .first_section-down{
     /*width: 100vw;*/
     min-width: 100vw;
-    min-height: 50vh; /*49*/
+    min-height: 55vh; /*49*/
     background: url(sources/images/waveS1V2.png);
     background-repeat: no-repeat;
 }
